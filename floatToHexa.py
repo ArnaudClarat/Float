@@ -13,15 +13,14 @@ def deTOhex(nbr):
         print(temp)
         temp = temp * 2
         if test:
-            if temp > 1 :
+            if temp > 1:
                 bin2 += "1"
                 temp -= 1
                 print("+1")
-            else :
+            else:
                 bin2 += "0"
                 print("+0")
     print(bin2)
-
 
 
 def main():
@@ -33,7 +32,7 @@ def main():
     Q = Quitter le programme
 """
     print("Bienvenue dans ce programme de conversion de nombre décimal en héxadécimal (et inversement)", menu)
-    #key = input("Que voulez-vous faire? ").upper()
+    # key = input("Que voulez-vous faire? ").upper()
     key = "1"
     while key != "Q":
         if key == "1":
@@ -45,9 +44,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-coucou = 4
-for i in range(coucou):
-    if True:
-        coucou += 1
