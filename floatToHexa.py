@@ -4,11 +4,12 @@ def deTOhex(nbr):
     print(bin1)
     if bin1 == "0":
         long = 10
+        test = False
     else:
         long = 10 - len(bin1)
+        test = True
     temp = float("0." + dec)
     bin2 = ""
-    test = False
     for i in range(long):
         print(temp)
         temp = temp * 2
